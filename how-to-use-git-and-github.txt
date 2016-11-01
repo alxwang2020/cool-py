@@ -1,14 +1,14 @@
 '''
 how to use github and git:
-1.git config --global user.name "alxwang2020"
-    1.2 git clone git@github.com:alxwang2020/__.git
-2.git status
-    2.2 cat filename
-3.git pull(no matter I or someone else change on github : github > local)
-4.write and save files
-5.git add filename（git add _.py...）
-    5.2 whole file floder (git add * )
-6.git commit -m "__"
-7.git push(local > github)
-8.check and done
+1.git config --global user.name "alxwang2020"#登陆
+    1.2 git clone git@github.com:alxwang2020/__.git#克隆到本地
+2.git status#查看本地文件改动情况
+    2.2 cat filename#查看某文件
+3.git pull(github被改动 : github > local)#更新到本地
+4.write and save files#本地更改
+5.git add filename（git add _.py...）#上传第一步，添加文件名，或者整个文件夹到中间库
+    5.2 whole file floder (git add * )整个文件夹及其下面文件都将添加到库
+6.git commit -m "__"#准备提交并备注
+7.git push(local > github)#提交
+8.check and done#查看
 '''
