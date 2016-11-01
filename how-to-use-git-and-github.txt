@@ -1,0 +1,14 @@
+'''
+how to use github and git:
+1.git config --global user.name "alxwang2020"
+    1.2 git clone git@github.com:alxwang2020/__.git
+2.git status
+    2.2 cat filename
+3.git pull(no matter I or someone else change on github : github > local)
+4.write and save files
+5.git add filename（git add _.py...）
+    5.2 whole file floder (git add * )
+6.git commit -m "__"
+7.git push(local > github)
+8.check and done
+'''
