@@ -18,9 +18,9 @@ to_addr = raw_input('To: ')
 smtp_server = raw_input('SMTP server: ')
 
 msg = MIMEText('hello, send by Python...', 'plain', 'utf-8')
-msg['From'] = _format_addr(u'Python爱好者 <%s>' % from_addr)
-msg['To'] = _format_addr(u'管理员 <%s>' % to_addr)
-msg['Subject'] = Header(u'来自SMTP的问候……', 'utf-8').encode()
+msg['From'] = _format_addr(u'alex <%s>' % from_addr)
+msg['To'] = _format_addr(u'administer <%s>' % to_addr)
+msg['Subject'] = Header(u'hello from SMTP……', 'utf-8').encode()
 
 server = smtplib.SMTP(smtp_server, 25)
 server.set_debuglevel(1)
