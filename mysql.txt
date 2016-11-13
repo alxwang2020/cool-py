@@ -42,5 +42,7 @@ MAX(AGE),
 COUNT(AGE),
 AVG(AGE)
 from class where NAME="";
-
-
+14.Ê±¼ä
+select now();
+select curdate();
+select currentdate();
