@@ -36,3 +36,11 @@ where AGE in (1,7)
 alter table class add birthday int(20);
 12.重命名
 rename table class to <>;
+13.函数
+select SUM(AGE) as "求和",
+MAX(AGE),
+COUNT(AGE),
+AVG(AGE)
+from class where NAME="";
+
+
