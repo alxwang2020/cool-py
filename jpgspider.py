@@ -12,8 +12,8 @@ def geturl(html):
     i = 0
     for x in fhtml:
     	urllib.urlretrieve(x,'%s.jpg'%i)
-        i= i+1
-    	print i,'.jpg'
+    	i= i+1
+        print i,'.jpg'
 url =input("plz type your website:")
 html = getHTML(url)
 geturl(html)
