@@ -1,0 +1,8 @@
+>>import MySQLdb #导入模块
+>>conn = MySQLdb.connect(host="localhost",user="root",passwd="MYSQL",db="nah表格名")  #建立连接
+>>cur = conn.cursor() #创建指针
+>>cur.execute("操作MYSQL") #语法同MYSQL
+>>cur.close() #关闭指针
+>>conn.commit() #提交数据
+>>conn.close() #关闭数据库连接
+>>
