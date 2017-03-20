@@ -14,6 +14,5 @@ def geturl(html):
     	urllib.urlretrieve(x,'%s.jpg'%i)
     	i= i+1
         print i,'.jpg'
-url =input("plz type your website:")
-html = getHTML(url)
+html = getHTML('http://www.mm131.com/xinggan')
 geturl(html)
